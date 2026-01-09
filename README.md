@@ -95,14 +95,23 @@ A **full-stack e-commerce marketplace** built using the **MERN stack**, featurin
 ## 📁 Project Structure
 
 buy sell/
+
 ├── backend/
+
 │ ├── controllers/
+
 │ │ ├── usercontroller.js
+
 │ │ ├── productcontroller.js
+
 │ │ └── ordercontroller.js
+
 │ ├── models/
+
 │ │ ├── userModel.js
+
 │ │ ├── productModel.js
+
 │ │ └── orderModel.js
 │ ├── routes/
 │ │ ├── userRoute.js
