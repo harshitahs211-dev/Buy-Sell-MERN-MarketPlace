@@ -2,6 +2,7 @@
 🛒 Buy-Sell MERN Marketplace
 A full-stack e-commerce marketplace built with the MERN stack, featuring modern UI/UX design with glassmorphism effects, secure authentication, and comprehensive product management.
 
+
 🚀 Features
 🔐 Authentication & User Management
 User Registration with password confirmation validation
@@ -9,6 +10,8 @@ Secure Login System with JWT token authentication
 Profile Management with user information display
 Protected Routes ensuring secure access to features
 Session Management with automatic token expiration handling
+
+
 🛍️ Product Management
 Product Listing with detailed information display
 Advanced Search functionality by product name
