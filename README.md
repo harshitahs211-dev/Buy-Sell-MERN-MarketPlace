@@ -141,6 +141,7 @@ buy sell/
 │           └── navbar.css
 │
 └── public/
+```
 
 ## 🎯 Key Functionalities
 
@@ -167,27 +168,106 @@ buy sell/
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Getting Started
 
-### Frontend
-- React.js
-- React Router DOM
-- Axios
-- CSS3 (Glassmorphism, Flexbox, Grid)
-- Responsive Design
-
-### Backend
-- Node.js
-- Express.js
+### Prerequisites
+- Node.js (v14 or higher)
 - MongoDB
-- Mongoose
-- JWT Authentication
-- bcrypt
-- dotenv
-- CORS
+- npm or yarn
+
+---
+
+### Installation
+
+1.Clone the repository
+```bash
+git clone <your-repo-url>
+cd "buy sell"
+```
 
 ### Development Tools
 - Nodemon
 - Concurrently
 
 ---
+
+2.Install backend dependencies
+```
+cd backend
+npm install
+```
+
+3.Environment Setup Create .env file in backend directory:
+Create a .env file inside backend/:
+```
+MONGODB_URI=mongodb://localhost:27017/buysell
+JWT_SECRET=your_jwt_secret_key
+PORT=8080
+```
+
+4.Start backend:
+```
+npm run dev
+```
+
+5.Frontend Setup
+```
+cd ../frontend
+npm install
+npm start
+```
+
+📧 API Endpoints
+
+
+📧 API Endpoints
+
+Authentication
+
+
+
+1.POST /api/users/register - User registration
+
+2.POST /api/users/login - User login
+
+Products
+
+
+1.GET /api/products/shop - Get all products
+
+2.POST /api/products/add - Add new product
+
+3.PUT /api/products/:id - Update product
+
+4.DELETE /api/products/:id - Delete product
+
+
+
+Cart & Orders
+
+
+1.POST /api/products/addtocart - Add to cart
+
+2.GET /api/products/cart - Get cart items
+
+3.POST /api/orders/buynow - Place order
+
+4.GET /api/orders/myorders - Get user orders
+
+🤝 Contributing
+
+1.Fork the repository
+
+2.Create your feature branch
+
+3Commit your changes
+
+4.Push to the branch
+
+5.Open a pull request
+
+👨‍💻 Author
+
+Harshita Sharma - Full Stack Developer
+
+Built with ❤️ using the MERN stack
