@@ -95,56 +95,45 @@ A **full-stack e-commerce marketplace** built using the **MERN stack**, featurin
 ## 📁 Project Structure
 
 buy sell/
-
 ├── backend/
-
-│ ├── controllers/
-
-│ │ ├── usercontroller.js
-
-│ │ ├── productcontroller.js
-
-│ │ └── ordercontroller.js
-
-│ ├── models/
-
-│ │ ├── userModel.js
-
-│ │ ├── productModel.js
-
-│ │ └── orderModel.js
-│ ├── routes/
-│ │ ├── userRoute.js
-│ │ ├── productRoute.js
-│ │ └── orderRoute.js
-│ ├── middleware/
-│ │ └── auth.js
-│ └── server.js
-│
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ └── navbar.jsx
-│ │ ├── pages/
-│ │ │ ├── login.jsx
-│ │ │ ├── signin.jsx
-│ │ │ ├── shop.jsx
-│ │ │ ├── SellItem.jsx
-│ │ │ ├── myproduct.jsx
-│ │ │ ├── cart.jsx
-│ │ │ ├── orders.jsx
-│ │ │ └── delivery.jsx
-│ │ └── styles/
-│ │ ├── login.css
-│ │ ├── signin.css
-│ │ ├── shop.css
-│ │ ├── sellItem.css
-│ │ ├── myproduct.css
-│ │ ├── cart.css
-│ │ ├── orders.css
-│ │ └── navbar.css
-│
-└── public/
+│   ├── controllers/
+│   │   ├── usercontroller.js     # User authentication logic
+│   │   ├── productcontroller.js  # Product management
+│   │   └── ordercontroller.js    # Order processing
+│   ├── models/
+│   │   ├── userModel.js          # User schema
+│   │   ├── productModel.js       # Product schema
+│   │   └── orderModel.js         # Order schema
+│   ├── routes/
+│   │   ├── userRoute.js          # Authentication routes
+│   │   ├── productRoute.js       # Product routes
+│   │   └── orderRoute.js         # Order routes
+│   ├── middleware/
+│   │   └── auth.js               # JWT authentication middleware
+│   └── server.js                 # Express server configuration
+└── frontend/
+    ├── src/
+    │   ├── components/
+    │   │   └── navbar.jsx         # Navigation component
+    │   ├── pages/
+    │   │   ├── login.jsx          # Login page
+    │   │   ├── signin.jsx         # Registration page
+    │   │   ├── shop.jsx           # Product marketplace
+    │   │   ├── SellItem.jsx       # Product listing form
+    │   │   ├── myrpoduct.jsx      # Seller's products
+    │   │   ├── cart.jsx           # Shopping cart
+    │   │   ├── orders.jsx         # Order history
+    │   │   └── delivery.jsx       # Delivery management
+    │   └── styles/
+    │       ├── login.css          # Login page styling
+    │       ├── signin.css         # Registration styling
+    │       ├── shop.css           # Marketplace styling
+    │       ├── sellItem.css       # Product form styling
+    │       ├── myrpoduct.css      # Product management styling
+    │       ├── cart.css           # Cart styling
+    │       ├── orders.css         # Order styling
+    │       └── navbar.css         # Navigation styling
+    └── public/
 
 
 ---
