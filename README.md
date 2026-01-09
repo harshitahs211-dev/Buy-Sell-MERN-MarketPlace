@@ -90,10 +90,9 @@ A **full-stack e-commerce marketplace** built using the **MERN stack**, featurin
 - Nodemon
 - Concurrently
 
----
-
 ## 📁 Project Structure
 
+```text
 buy sell/
 ├── backend/
 │   ├── controllers/
@@ -143,127 +142,52 @@ buy sell/
 │
 └── public/
 
-
-
----
-
 ## 🎯 Key Functionalities
 
-### For Buyers
-- Browse products with search & filters  
-- View product details in modals  
-- Add items to cart  
-- Place secure orders  
-- Track order status  
-- Receive OTP for delivery verification  
+### 🛒 For Buyers
+- Browse products with search & filters
+- View product details in interactive modals
+- Add items to cart
+- Place secure orders
+- Track order status
+- Receive OTP for delivery verification
 
-### For Sellers
-- List products with details  
-- Edit / delete inventory  
-- Process orders  
-- Generate delivery OTP  
-- Track sales  
+### 🧑‍💼 For Sellers
+- List products with detailed information
+- Edit / delete inventory
+- Process orders efficiently
+- Generate delivery OTP
+- Track sales and order fulfillment
 
-### Admin Capabilities
-- User authentication management  
-- Product CRUD operations  
-- Order processing and tracking  
-- Secure data handling  
-
----
-
-## 🔒 Security Features
-- Password hashing using **bcrypt**  
-- JWT-based authentication  
-- Protected API routes  
-- Frontend & backend input validation  
-- Secure CORS configuration  
-- Environment variables for sensitive data  
-- OTP-based delivery verification  
+### 🛠️ Admin Capabilities
+- User authentication management
+- Product CRUD operations
+- Order processing and tracking
+- Secure data handling
 
 ---
 
-## 📱 Responsive Design
-- Mobile-first layout  
-- Touch-friendly UI  
-- Adaptive design for tablets & desktops  
-- Optimized image scaling  
-- Cross-browser compatibility  
+## 🛠️ Tech Stack
 
----
+### Frontend
+- React.js
+- React Router DOM
+- Axios
+- CSS3 (Glassmorphism, Flexbox, Grid)
+- Responsive Design
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v14 or higher)
+### Backend
+- Node.js
+- Express.js
 - MongoDB
-- npm or yarn
+- Mongoose
+- JWT Authentication
+- bcrypt
+- dotenv
+- CORS
+
+### Development Tools
+- Nodemon
+- Concurrently
 
 ---
-
-### Installation
-
-```bash
-git clone <your-repo-url>
-cd "buy sell"
-
-cd backend
-npm install
-
-MONGODB_URI=mongodb://localhost:27017/buysell
-JWT_SECRET=your_jwt_secret_key
-PORT=8080
-
-npm run dev
-
-cd ../frontend
-npm install
-npm start
-
-
-📧 API Endpoints
-Authentication
-
-POST /api/users/register – Register user
-
-POST /api/users/login – Login user
-
-Products
-
-GET /api/products/shop – Fetch products
-
-POST /api/products/add – Add product
-
-PUT /api/products/:id – Update product
-
-DELETE /api/products/:id – Delete product
-
-Cart & Orders
-
-POST /api/products/addtocart – Add to cart
-
-GET /api/products/cart – Get cart items
-
-POST /api/orders/buynow – Place order
-
-GET /api/orders/myorders – Order history
-
-🤝 Contributing
-
-Fork the repository
-
-Create a feature branch
-
-Commit your changes
-
-Push to the branch
-
-Open a Pull Request
-
-👨‍💻 Author
-
-Harshita Sharma
-Full Stack Developer
-
-⭐ Built with ❤️ using the MERN Stack
-
