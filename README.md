@@ -95,27 +95,37 @@ A **full-stack e-commerce marketplace** built using the **MERN stack**, featurin
 ## 📁 Project Structure
 
 buy sell/
+
 ├── backend/
+
 │   ├── controllers/
+
 │   │   ├── usercontroller.js     # User authentication logic
 │   │   ├── productcontroller.js  # Product management
 │   │   └── ordercontroller.js    # Order processing
 │   ├── models/
+
 │   │   ├── userModel.js          # User schema
 │   │   ├── productModel.js       # Product schema
 │   │   └── orderModel.js         # Order schema
 │   ├── routes/
+
 │   │   ├── userRoute.js          # Authentication routes
 │   │   ├── productRoute.js       # Product routes
 │   │   └── orderRoute.js         # Order routes
 │   ├── middleware/
+
 │   │   └── auth.js               # JWT authentication middleware
 │   └── server.js                 # Express server configuration
 └── frontend/
+
     ├── src/
+    
     │   ├── components/
+    
     │   │   └── navbar.jsx         # Navigation component
     │   ├── pages/
+    
     │   │   ├── login.jsx          # Login page
     │   │   ├── signin.jsx         # Registration page
     │   │   ├── shop.jsx           # Product marketplace
@@ -125,6 +135,7 @@ buy sell/
     │   │   ├── orders.jsx         # Order history
     │   │   └── delivery.jsx       # Delivery management
     │   └── styles/
+    
     │       ├── login.css          # Login page styling
     │       ├── signin.css         # Registration styling
     │       ├── shop.css           # Marketplace styling
